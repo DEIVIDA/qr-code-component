@@ -14,12 +14,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   background: var(--Light-gray);
 }
 
-.container {
+main {
   max-width: 360px;
   margin: 0 auto;
 }
@@ -39,8 +39,9 @@ img {
   border-radius: 12px;
 }
 
-h2 {
+h1 {
   color: var(--Dark-blue);
+  font-size: 24px;
 }
 
 p {
